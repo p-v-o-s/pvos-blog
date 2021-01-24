@@ -36,13 +36,11 @@
 </tbody>
 </table>
 <h2>Overview</h2>
-<p>The primary repository for hardware and firmware designs is on github <a href="https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f">here</a>. Below, you'll find material on:</p>
-<ul>
-<li><a href="">Hardware design</a> -- including design files in KiCAD, and quick links to order PCBs from OSHPark or JLCPCB.</li>
-<li><a href="">Firmware</a> -- currently in Arduino. (Micropython coming soon!)</li>
-<li><a href="">Getting Started</a> -- how to start collecting CO2 data online -- currently for Bayou-CO2 (Adafruit.io and Thingspeak coming soon!)</li>
-</ul>
-<h2>Hardware Setup</h2>
+<p>The primary repository for hardware and firmware designs is on github <a href="https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f">here</a>. Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.</p>
+<h3><a href="#hardware">Hardware Overview</a></h3>
+<h3><a href="#firmware">Firmware Setup</a></h3>
+<h3><a href="#online">Getting Data Online</a></h3>
+<h2><a name="hardware"></a> Hardware Setup</h2>
 <table>
 <thead>
 <tr>
@@ -79,7 +77,7 @@
 </tr>
 </tbody>
 </table>
-<h2>Firmware Setup</h2>
+<h2><a name="firmware"></a>Firmware Setup</h2>
 <h3>Arduino IDE Version</h3>
 <p>The following firmware is based on version 1.8.13 or greater of the Arduino IDE. Earlier versions may work, but are currently untested.  Download the latest version <a href="https://www.arduino.cc/en/software">here</a>.</p>
 <h3>Adding support for the Heltec ESP32 Wifi Lora v2</h3>
@@ -102,9 +100,11 @@
 <h3>Uploading the 'data' folder contents</h3>
 <p>Install the ESP32 Filesystem Uploader following the instructions <a href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/">here</a>.</p>
 <p>Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the &quot;Tools: Boards&quot; menu, and the proper Port from the &quot;Tools: Port&quot; menu.</p>
-<h2>Collecting data online</h2>
+<h2><a name="online"></a> Collecting data online</h2>
 <p>The following steps are for collecting data via <a href="">Bayou-CO2</a>.  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!</p>
 <h3>1. Set up a Bayou-CO2 feed</h3>
+<p>Follow the instructions on <a href="http://data.pvos.org/co2/">Bayou-CO2</a> for setting up a new feed.</p>
+<p>(Coming soon: video tutorial)</p>
 <h3>2. Connect to your hardware via wifi on your phone</h3>
 <p>First, connect to the hotspot shown on the screen.</p>
 <p>Configure the device on your local wifi, using your phone.</p>

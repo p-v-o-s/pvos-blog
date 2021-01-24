@@ -12,13 +12,13 @@ Home page for documentation, tutorials, and sample data for ["Revision F" ("REV_
 
 ## Overview
 
-The primary repository for hardware and firmware designs is on github [here](https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f). Below, you'll find material on:
-- [Hardware design]() -- including design files in KiCAD, and quick links to order PCBs from OSHPark or JLCPCB.
-- [Firmware]() -- currently in Arduino. (Micropython coming soon!)
-- [Getting Started]() -- how to start collecting CO2 data online -- currently for Bayou-CO2 (Adafruit.io and Thingspeak coming soon!)
+The primary repository for hardware and firmware designs is on github [here](https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f). Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.
 
+### [Hardware Overview](#hardware)
+### [Firmware Setup](#firmware)
+### [Getting Data Online](#online)
 
-## Hardware Setup
+## <a name="hardware"></a> Hardware Setup
 
 | ![](/img/co2/rev_f_schematic.png) |
 |:--:|
@@ -33,7 +33,7 @@ The primary repository for hardware and firmware designs is on github [here](htt
 | **Rev F** PVOS CO2 Monitor rendered by JLCPB.  You can order 5 boards for them via [this link](). |
 
 
-## Firmware Setup
+## <a name="firmware"></a>Firmware Setup
 
 ### Arduino IDE Version
 
@@ -67,11 +67,15 @@ Install the ESP32 Filesystem Uploader following the instructions [here](https://
 
 Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the "Tools: Boards" menu, and the proper Port from the "Tools: Port" menu.
 
-## Collecting data online
+## <a name="online"></a> Collecting data online
 
 The following steps are for collecting data via [Bayou-CO2]().  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!
 
 ### 1. Set up a Bayou-CO2 feed
+
+Follow the instructions on [Bayou-CO2](http://data.pvos.org/co2/) for setting up a new feed.
+
+(Coming soon: video tutorial)
 
 ### 2. Connect to your hardware via wifi on your phone
 
