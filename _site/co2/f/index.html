@@ -100,8 +100,16 @@
 <h3>Get the latest firmware for REV_F</h3>
 <p>The current firmware can be downloaded <a href="https://github.com/p-v-o-s/co2-monitor/releases/download/v0.1-alpha/rev_f_co2monitor.zip">here</a> as a zip file.  Extract the contents, and copy the entire folder named 'co2monitor' (containing a file 'co2monitor.ino', and a folder called 'data') into your Arduino Sketch folder.</p>
 <h3>Adding support for the Heltec ESP32 Wifi Lora v2</h3>
-<p>First, you should add support in the Arduino IDE for the Heltec.  You can follow the instructions <a href="https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/">here</a>.</p>
-<p>(Coming soon: video tutorial).</p>
+<p>First, you should add support in the Arduino IDE for the Heltec.</p>
+<p>There are very clear instructions <a href="https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/">here</a>.</p>
+<p>Quick notes as reference:</p>
+<p>You'll be adding the following JSON to the “Additional Board Manager URLs” field in <strong>File &gt; Preferences</strong>:</p>
+<pre><code>    https://dl.espressif.com/dl/package_esp32_index.json
+</code></pre>
+<p>Then, under <strong>Tools &gt; Board &gt; Boards Manager</strong>, search for ESP32 and press install button for the “ESP32 by Espressif Systems“.</p>
+<p>Finally, you can select the board under the <strong>Tools &gt; Board</strong> menu as:</p>
+<pre><code>    Heltec Wifi Lora 32(V2)
+</code></pre>
 <h3>Installing Required Arduino libraries</h3>
 <p>These can be installed via the Arduino IDE Library Manager:</p>
 <ul>
@@ -118,7 +126,7 @@
 </ul>
 <h3>Uploading the 'data' folder contents</h3>
 <p>Install the ESP32 Filesystem Uploader following the instructions <a href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/">here</a>.</p>
-<p>Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the &quot;Tools: Boards&quot; menu, and the proper Port from the &quot;Tools: Port&quot; menu.</p>
+<p>Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the <strong>Tools &gt; Boards</strong> menu, and the proper Port from the <strong>Tools &gt; Port</strong> menu.</p>
 <h2><a name="online"></a> Collecting data online</h2>
 <p>The following steps are for collecting data via <a href="">Bayou-CO2</a>.  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!</p>
 <h3>1. Set up a Bayou-CO2 feed</h3>

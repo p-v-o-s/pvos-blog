@@ -47,7 +47,6 @@ You can order a PCB by submitting the [KiCad board file]() to [OSHPARK]() (link 
 |:--:|
 | **Rev F** PVOS CO2 Monitor rendered by JLCPB.  You can order 5 boards for them via [this link](). |
 
-
 ## <a name="firmware"></a>Firmware Setup
 
 ### Arduino IDE Version
@@ -60,9 +59,24 @@ The current firmware can be downloaded [here](https://github.com/p-v-o-s/co2-mon
 
 ### Adding support for the Heltec ESP32 Wifi Lora v2
 
-First, you should add support in the Arduino IDE for the Heltec.  You can follow the instructions [here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/).
+First, you should add support in the Arduino IDE for the Heltec.  
 
-(Coming soon: video tutorial).
+There are very clear instructions [here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/).
+
+Quick notes as reference:
+
+You'll be adding the following JSON to the “Additional Board Manager URLs” field in **File > Preferences**:
+
+```
+    https://dl.espressif.com/dl/package_esp32_index.json
+```
+Then, under **Tools > Board > Boards Manager**, search for ESP32 and press install button for the “ESP32 by Espressif Systems“.
+
+Finally, you can select the board under the **Tools > Board** menu as:
+
+```
+    Heltec Wifi Lora 32(V2)
+```
 
 ### Installing Required Arduino libraries
 
@@ -84,7 +98,7 @@ Alternatively, if you'd like to download the libraries manually via github and p
 
 Install the ESP32 Filesystem Uploader following the instructions [here](https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/).
 
-Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the "Tools: Boards" menu, and the proper Port from the "Tools: Port" menu.
+Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the **Tools > Boards** menu, and the proper Port from the **Tools > Port** menu.
 
 ## <a name="online"></a> Collecting data online
 
