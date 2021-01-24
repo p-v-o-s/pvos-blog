@@ -28,6 +28,12 @@ The primary repository for hardware and firmware designs is on github [here](htt
 |:--:|
 | **Rev F** PVOS CO2 Monitor board layout (generated in KiCAD). |
 
+| ![](/img/co2/rev_f_render_jlcpcb.png) |
+|:--:|
+| **Rev F** PVOS CO2 Monitor rendered by JLCPB.  You can order 5 boards for them via [this link](). |
+
+
+
 ## Firmware
 
 ## Getting Started
