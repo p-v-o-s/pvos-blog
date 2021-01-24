@@ -4,19 +4,19 @@ layout: layout.njk
 
 # "Rev F" of the PVOS CO2 Monitoring Kit
 
-Home page for documentation, tutorials, and sample data for ["Revision F" ("REV_F")](/co2/f) of the [PVOS CO2 Monitoring Kit](/posts/co2).
+This is the home page for documentation, tutorials, and sample data for ["Revision F" ("REV_F")](/co2/f) of the [PVOS CO2 Monitoring Kit](/posts/co2).
+
+The primary repository for hardware and firmware designs is on github [here](https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f). Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.
 
 | ![](/img/rev_f_boards_sm.png) |
 |:--:|
 | **Rev F** of the PVOS CO2 Monitor. |
 
-## Overview
+## Table of Contents
 
-The primary repository for hardware and firmware designs is on github [here](https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f). Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.
-
-### [Hardware Overview](#hardware)
+### [Hardware Overview](#hardware) 
 ### [Firmware Setup](#firmware)
-### [Getting Data Online](#online)
+### [Archiving CO2 Data Online](#online)
 
 ## <a name="hardware"></a> Hardware Setup
 
@@ -53,6 +53,10 @@ You can order a PCB by submitting the [KiCad board file]() to [OSHPARK]() (link 
 ### Arduino IDE Version
 
 The following firmware is based on version 1.8.13 or greater of the Arduino IDE. Earlier versions may work, but are currently untested.  Download the latest version [here](https://www.arduino.cc/en/software).
+
+### Get the latest firmware for REV_F
+
+The current firmware can be downloaded [here](https://github.com/p-v-o-s/co2-monitor/releases/download/v0.1-alpha/rev_f_co2monitor.zip) as a zip file.  Extract the contents, and copy the entire folder named 'co2monitor' (containing a file 'co2monitor.ino', and a folder called 'data') into your Arduino Sketch folder.
 
 ### Adding support for the Heltec ESP32 Wifi Lora v2
 

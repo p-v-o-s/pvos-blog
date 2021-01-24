@@ -22,7 +22,8 @@
 
   
   <h1>&quot;Rev F&quot; of the PVOS CO2 Monitoring Kit</h1>
-<p>Home page for documentation, tutorials, and sample data for <a href="/co2/f">&quot;Revision F&quot; (&quot;REV_F&quot;)</a> of the <a href="/posts/co2">PVOS CO2 Monitoring Kit</a>.</p>
+<p>This is the home page for documentation, tutorials, and sample data for <a href="/co2/f">&quot;Revision F&quot; (&quot;REV_F&quot;)</a> of the <a href="/posts/co2">PVOS CO2 Monitoring Kit</a>.</p>
+<p>The primary repository for hardware and firmware designs is on github <a href="https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f">here</a>. Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.</p>
 <table>
 <thead>
 <tr>
@@ -35,11 +36,10 @@
 </tr>
 </tbody>
 </table>
-<h2>Overview</h2>
-<p>The primary repository for hardware and firmware designs is on github <a href="https://github.com/p-v-o-s/co2-monitor/tree/main/rev_f">here</a>. Below you'll find a tutorial that includes an overview of the monitoring hardware; a guide to setting up the firmware; and a guide to getting data online.</p>
+<h2>Table of Contents</h2>
 <h3><a href="#hardware">Hardware Overview</a></h3>
 <h3><a href="#firmware">Firmware Setup</a></h3>
-<h3><a href="#online">Getting Data Online</a></h3>
+<h3><a href="#online">Archiving CO2 Data Online</a></h3>
 <h2><a name="hardware"></a> Hardware Setup</h2>
 <p>Hardware design files are &quot;Free and Open Source&quot;, available on <a href="https://github.com/p-v-o-s/co2-monitor/blob/main/rev_f/hardware">github</a>.</p>
 <h3>Pre-assembled kits -- starting at $1,000,000 ea</h3>
@@ -97,6 +97,8 @@
 <h2><a name="firmware"></a>Firmware Setup</h2>
 <h3>Arduino IDE Version</h3>
 <p>The following firmware is based on version 1.8.13 or greater of the Arduino IDE. Earlier versions may work, but are currently untested.  Download the latest version <a href="https://www.arduino.cc/en/software">here</a>.</p>
+<h3>Get the latest firmware for REV_F</h3>
+<p>The current firmware can be downloaded <a href="https://github.com/p-v-o-s/co2-monitor/releases/download/v0.1-alpha/rev_f_co2monitor.zip">here</a> as a zip file.  Extract the contents, and copy the entire folder named 'co2monitor' (containing a file 'co2monitor.ino', and a folder called 'data') into your Arduino Sketch folder.</p>
 <h3>Adding support for the Heltec ESP32 Wifi Lora v2</h3>
 <p>First, you should add support in the Arduino IDE for the Heltec.  You can follow the instructions <a href="https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/">here</a>.</p>
 <p>(Coming soon: video tutorial).</p>
