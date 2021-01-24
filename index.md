@@ -17,8 +17,9 @@ layout: front.njk
 -->
 
 <!--[Projects](#projects) | [Research](#notebook) | [Presentations](#talks) |  [Guides](#guides) 
--->
 (You can now support our work via [Opencollective](https://opencollective.com/pvos)!)
+
+-->
 
 </div>
 
