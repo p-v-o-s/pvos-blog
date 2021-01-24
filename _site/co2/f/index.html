@@ -42,7 +42,7 @@
 <li><a href="">Firmware</a> -- currently in Arduino. (Micropython coming soon!)</li>
 <li><a href="">Getting Started</a> -- how to start collecting CO2 data online -- currently for Bayou-CO2 (Adafruit.io and Thingspeak coming soon!)</li>
 </ul>
-<h2>Hardware</h2>
+<h2>Hardware Overview</h2>
 <table>
 <thead>
 <tr>
@@ -80,7 +80,42 @@
 </tbody>
 </table>
 <h2>Firmware</h2>
-<h2>Getting Started</h2>
+<h3>Setting up the Arduino IDE</h3>
+<h4>Arduino IDE Version</h4>
+<p>eThe following firmware is based on version 1.8.13 or greater of the Arduino IDE. Earlier versions may work, but are currently untested.  Download the latest version <a href="https://www.arduino.cc/en/software">here</a>.</p>
+<h4>Adding support for the Heltec ESP32 Wifi Lora v2</h4>
+<p>First, you should add support in the Arduino IDE for the Heltec.  You can follow the instructions <a href="https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/">here</a>.</p>
+<p>(Coming soon: video tutorial).</p>
+<h4>Installing Required Arduino libraries</h4>
+<p>These can be installed via the Arduino IDE Library Manager:</p>
+<ul>
+<li>when you pull up &quot;co2monitor.ino&quot; in the Arduino IDE, you can click on each of the links in the comments above, and each will provide you with a button for installing the associated library.  You will need to click on each link sequentially, and install each (doesn't take long!):</li>
+</ul>
+<p><img src="/img/co2/library_manager_rev_f.png" alt=""></p>
+<p>Alternatively, if you'd like to download the libraries manually via github and place them in the &quot;libraries&quot; folder of your Arduino sketch folder, you can do so via these links (to github repos for the libraries):</p>
+<ul>
+<li><a href="https://github.com/Hieromon/AutoConnect">Autoconnect</a></li>
+<li><a href="https://github.com/sparkfun/SparkFun_SCD30_Arduino_Library">Sparkfun SCD30 library</a></li>
+<li><a href="https://github.com/MartinL1/BMP388_DEV">BMP388_DEV</a></li>
+<li><a href="https://github.com/thomasfredericks/Bounce2">Bounce2</a></li>
+<li><a href="https://github.com/olikraus/u8g2">U8g2</a></li>
+</ul>
+<h4>Uploading the 'data' folder contents</h4>
+<p>Install the ESP32 Filesystem Uploader following the instructions <a href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/">here</a>.</p>
+<p>Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the &quot;Tools: Boards&quot; menu, and the proper Port from the &quot;Tools: Port&quot; menu.</p>
+<h2>Collecting data online</h2>
+<p>The following steps are for collecting data via <a href="">Bayou-CO2</a>.  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!</p>
+<h4>1. Set up a Bayou-CO2 feed</h4>
+<h4>2. Connect to your hardware via wifi on your phone</h4>
+<p>First, connect to the hotspot shown on the screen.</p>
+<p>Configure the device on your local wifi, using your phone.</p>
+<h4>3. Enter in your Bayou-CO2 credentials</h4>
+<p>This is ideally done using a laptop (for easy copy-paste of credentials):</p>
+<p>Press the side button to see the IP address to which your device is connected.</p>
+<p>Navigate to this address on your laptop.</p>
+<p>Enter in the public key and private key for your Bayou-CO2 feed.</p>
+<h4>4. Check for new data online</h4>
+<p>Navigate to http://data.pvos.org/co2/data/[ your public key] to see if data is flowing!</p>
 
 
     </div>
