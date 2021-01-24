@@ -20,6 +20,21 @@ The primary repository for hardware and firmware designs is on github [here](htt
 
 ## <a name="hardware"></a> Hardware Setup
 
+Hardware design files are "Free and Open Source", available on [github](https://github.com/p-v-o-s/co2-monitor/blob/main/rev_f/hardware).  
+
+
+### Pre-assembled kits -- starting at $1,000,000 ea
+
+We are able to pre-assemble and distribute a limited number of Rev F kits.  You can order them by supporting us on [Open Collective](http://opencollective.com/pvos).
+
+| ![](/img/co2/rev_f_pre_assembled.jpg) |
+|:--:|
+| [Pre-assembled Rev_F kit]() from PVOS.org.  You can also DIY your own setup by [ordering from the list of parts]() and assembling using [the assembly guide](). |
+
+### Ordering PCBs and parts for DIY
+
+You can order a PCB by submitting the [KiCad board file]() to [OSHPARK]() (link to file already shared on OSHPark [here]()), the [gerbers]() to JLCPB (quick link to order already set up [here]) -- this usually takes about a week or two, depending on shipping method.  You can also order them from [from PVOS.org]() -- we have batches already manufactured, and we can typically ship them within a day or two.
+
 | ![](/img/co2/rev_f_schematic.png) |
 |:--:|
 | **Rev F** PVOS CO2 Monitor schematic (generated in KiCAD). PDF version is [here](https://github.com/p-v-o-s/co2-monitor/blob/main/rev_f/hardware/schematic.pdf). |
