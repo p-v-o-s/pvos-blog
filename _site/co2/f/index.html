@@ -39,6 +39,7 @@
 <h2>Table of Contents</h2>
 <h3><a href="#hardware">Hardware Overview</a></h3>
 <h3><a href="#firmware">Firmware Setup</a></h3>
+<h3><a href="#wifi">Connecting Rev_F to your WiFi</a></h3>
 <h3><a href="#online">Archiving CO2 Data Online</a></h3>
 <h2><a name="hardware"></a> Hardware Setup</h2>
 <p>Hardware design files are &quot;Free and Open Source&quot;, available on <a href="https://github.com/p-v-o-s/co2-monitor/blob/main/rev_f/hardware">github</a>.</p>
@@ -95,6 +96,9 @@
 </tbody>
 </table>
 <h2><a name="firmware"></a>Firmware Setup</h2>
+<p>Video tutorial covering how to set up the firmware is here:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7GUvPnLI-jg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>You can also use the below guide:</p>
 <h3>Arduino IDE Version</h3>
 <p>The following firmware is based on version 1.8.13 or greater of the Arduino IDE. Earlier versions may work, but are currently untested.  Download the latest version <a href="https://www.arduino.cc/en/software">here</a>.</p>
 <h3>Get the latest firmware for REV_F</h3>
@@ -127,8 +131,14 @@
 <h3>Uploading the 'data' folder contents</h3>
 <p>Install the ESP32 Filesystem Uploader following the instructions <a href="https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/">here</a>.</p>
 <p>Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the <strong>Tools &gt; Boards</strong> menu, and the proper Port from the <strong>Tools &gt; Port</strong> menu.</p>
+<h2><a name="wifi"></a> Connecting Rev_F to WiFi</h2>
+<p>After uploading the firmware as above, you can follow the instructions in the below video to connect your monitor to your WiFi locally:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mWnoT4Bof1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2><a name="online"></a> Collecting data online</h2>
 <p>The following steps are for collecting data via <a href="">Bayou-CO2</a>.  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!</p>
+<p>Video tutorial for this section is here:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qi7CdAqu774" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Or follow the instructions below.</p>
 <h3>1. Set up a Bayou-CO2 feed</h3>
 <p>Follow the instructions on <a href="http://data.pvos.org/co2/">Bayou-CO2</a> for setting up a new feed.</p>
 <p>(Coming soon: video tutorial)</p>

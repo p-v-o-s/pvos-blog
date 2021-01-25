@@ -16,6 +16,7 @@ The primary repository for hardware and firmware designs is on github [here](htt
 
 ### [Hardware Overview](#hardware) 
 ### [Firmware Setup](#firmware)
+### [Connecting Rev_F to your WiFi](#wifi)
 ### [Archiving CO2 Data Online](#online)
 
 ## <a name="hardware"></a> Hardware Setup
@@ -48,6 +49,12 @@ You can order a PCB by submitting the [KiCad board file]() to [OSHPARK]() (link 
 | **Rev F** PVOS CO2 Monitor rendered by JLCPB.  You can order 5 boards for them via [this link](). |
 
 ## <a name="firmware"></a>Firmware Setup
+
+Video tutorial covering how to set up the firmware is here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7GUvPnLI-jg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also use the below guide:
 
 ### Arduino IDE Version
 
@@ -100,9 +107,21 @@ Install the ESP32 Filesystem Uploader following the instructions [here](https://
 
 Follow the same instructions to upload the 'data' folder to your Heltec via the ESP32. Note: before uploading, you must select the Heltec ESP32 Wifi LoRa (v2) board from the **Tools > Boards** menu, and the proper Port from the **Tools > Port** menu.
 
+## <a name="wifi"></a> Connecting Rev_F to WiFi
+
+After uploading the firmware as above, you can follow the instructions in the below video to connect your monitor to your WiFi locally:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mWnoT4Bof1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="online"></a> Collecting data online
 
 The following steps are for collecting data via [Bayou-CO2]().  Guides for getting data to Adafruit.io, Thingspeak, and other platforms forthcoming!
+
+Video tutorial for this section is here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qi7CdAqu774" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Or follow the instructions below.
 
 ### 1. Set up a Bayou-CO2 feed
 
