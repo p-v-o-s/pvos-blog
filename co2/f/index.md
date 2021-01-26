@@ -62,7 +62,7 @@ The following firmware is based on version 1.8.13 or greater of the Arduino IDE.
 
 ### Get the latest firmware for REV_F
 
-The current firmware (v0.1-alpha) can be downloaded [here](https://github.com/p-v-o-s/co2-monitor/releases/download/v0.1-alpha/rev_f_firmware_v0.1-alpha.zip) as a zip file.  Extract the contents, and copy the entire folder named 'co2monitor' (containing a file 'co2monitor.ino', and a folder called 'data') into your Arduino Sketch folder.
+The current firmware (v0.1-alpha) can be downloaded [here](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware/-/raw/master/releases/v0.1-alpha.zip) as a zip file.  Extract the contents, and copy the entire folder named 'pvos_co2' (containing a file 'pvos_co2.ino', and a folder called 'data') into your Arduino Sketch folder.
 
 ### Adding support for the Heltec ESP32 Wifi Lora v2
 
