@@ -6,9 +6,7 @@ layout: layout.njk
 <!--<img src="/img/edge_flower_medium.png">-->
 <img src="/img/pvos.png">
 
-# PVOS CO2 Monitoring Project
-
-## Quick Links
+## PVOS CO2 Monitoring Project
 
 ### [CO2 Monitoring Project -- Todo / Issue Tracking](https://gitlab.com/p-v-o-s/co2/co2monitor-project/-/issues)
 
