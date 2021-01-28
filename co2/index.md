@@ -12,6 +12,6 @@ layout: layout.njk
 
 ### [REV_F -- Overview & Getting Started](/co2/f)
 
-### [REV_F -- Firmware](/co2/f)
+### [REV_F -- Firmware](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware)
 
 
