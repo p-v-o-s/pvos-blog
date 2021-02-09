@@ -12,7 +12,9 @@ Another advantage to maintaining a tool library is that often this allows groups
 
 ### Why is CO2 Monitoring Useful?
 
-CO2 monitoring has long been used for determining the effectiveness of indoor residential ventilation. Changes in indoor CO2 concentration can indicate whether air inside a room has 'refreshed' since its most recent occupants left, or whether there is sufficient space and/or ventilation inside a building that people are unlikely to spread airborne illness. Recently, [researchers](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf) have been exploring CO2 monitoring as factor in the assessment of the relative risk of indoor transmission of [COVID-19](). In the case of airborne illness, there are a few very common questions that CO2 monitoring can help answer:
+CO2 monitoring has long been used for determining the effectiveness of indoor residential ventilation. Changes in indoor CO2 concentration can indicate whether air inside a room has 'refreshed' since its most recent occupants left, or whether there is sufficient space and/or ventilation inside a building that people are unlikely to spread airborne illness. 
+
+**Indoor CO2 PPM and COVID-19 transmission**. Recently, [researchers](https://www.medrxiv.org/content/10.1101/2020.09.09.20191676v1.full.pdf) have been exploring CO2 monitoring as factor in the assessment of the relative risk of indoor transmission of [COVID-19](). In the case of airborne illness, there are a few very common questions that CO2 monitoring can help answer:
 
 - How long should people wait for air in a space occupied by another 'pod' to 'turn over' before entering it? 
 - How many people can occupy the same indoor space before it is too 'crowded'?
