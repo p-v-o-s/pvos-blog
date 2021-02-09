@@ -13,6 +13,12 @@ Research tools, instrument designs, pedagogy, collaborations.
 </div>
 
 
+## Projects
+
+### [CO2 Monitor Lending Library](/co2_lending/)
+
+## R&D
+
 ### [CO2 Monitoring](/co2/)
 
 ### [Electrochemistry](https://gitlab.com/p-v-o-s/echem)
