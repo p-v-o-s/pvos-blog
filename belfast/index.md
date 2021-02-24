@@ -17,8 +17,25 @@ layout: layout.njk
 
 New data can be added to your feed via HTTP POST; note that you will need both the PUBLIC_KEY and PRIVATE_KEY for your feed in order to be allowed to post new data. 
 
-Below is an example of a Python script to post new values:
+Every POST must include the "private_key" field, and may additionally include any of the field names that are in the belfast.pvos.org database.  
 
+#### Allowed parameters
+
+As of 24 FEB 2021, the allowed parameters in the database are the following:
+
+```
+temperature_c, humidity_rh, distance_meters, pressure_mbar, battery_volts, gps_lat, gps_lon, gps_alt, distance_meters_1, distance_meters_2, distance_meters_3, temperature_c_1, temperature_c_2, temperature_c_3, voltage_1, voltage_2, voltage_3, aux_1, aux_2, aux_3, log
+```
+
+And an example JSON object to send to the server sending all parameters would look like this:
+
+```
+{"private_key":"[PRIVATE_KEY]", "temperature_c":0, "humidity_rh":0, "distance_meters":0, "pressure_mbar":0, "battery_volts":0, "gps_lat":0, "gps_lon":0, "gps_alt":0, "distance_meters_1":0, "distance_meters_2":0, "distance_meters_3":0, "temperature_c_1":0, "temperature_c_2":0, "temperature_c_3":0, "voltage_1":0, "voltage_2":0, "voltage_3":0, "aux_1":0, "aux_2":0, "aux_3":0, "log":"LOG MESSAGE}
+```
+
+#### Example Python script 
+
+Below is an example of a Python script to post a new (random) distance value to belfast.pvos.org:
 
 ```
 import requests
