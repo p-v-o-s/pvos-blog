@@ -22,10 +22,39 @@
         <h1></h1>
 
   
-  <h2>PVOS CO2 Monitoring Project -- Quick Links</h2>
-<h3><a href="https://gitlab.com/p-v-o-s/co2/co2monitor-project/-/issues">Todo / Issue Tracking</a></h3>
-<h3><a href="/co2/f">REV_F -- Overview &amp; Getting Started</a></h3>
-<h3><a href="https://gitlab.com/p-v-o-s/co2/co2monitor-firmware">REV_F -- Firmware</a></h3>
+  <h2>Belfast Tide Level Monitoring</h2>
+<h3>Creating a new data feed on belfast.pvos.org</h3>
+<ol>
+<li>Create a new data feed at <a href="http://belfast.pvos.org">belfast.pvos.org</a></li>
+<li>Make note of: the feed's PUBLIC_KEY and PRIVATE_KEY (e.g. copy them from the site, paste them into a local text editor)</li>
+<li>Your data is now available at &quot;http://belfast.pvos.org/data/[PUBLIC_KEY].  See below for how to add new data.</li>
+</ol>
+<h3>Posting new data to a belfast.pvos.org feed</h3>
+<p>New data can be added to your feed via HTTP POST; note that you will need both the PUBLIC_KEY and PRIVATE_KEY for your feed in order to be allowed to post new data.</p>
+<p>Below is an example of a Python script to post new values:</p>
+<pre><code>import requests
+import random # only used to generate example data
+
+# credentials for belfast.pvos.org (for this particular sensor feed)
+public_key = &quot;[YOUR PUBLIC_KEY]&quot;
+private_key = &quot;[YOUR PRIVATE_KEY]&quot;
+
+# these will stay fixed:
+base_url = &quot;http://belfast.pvos.org/data/&quot;
+full_url = base_url+public_key
+
+# example data:
+distance = random.randint(10,20)
+
+# the JSON object we'll be POST-ing to 'full_url' ...
+# NOTE: we must include the private_key as one of the parameters;
+# and 'distance_meters' is one of several possible parameters in the postgres database.
+myobj = {&quot;private_key&quot;:private_key, &quot;distance_meters&quot;:distance}
+
+x = requests.post(full_url, data = myobj)
+print (distance)
+print(x.text)
+</code></pre>
 
 
     </div>
