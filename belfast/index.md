@@ -4,11 +4,16 @@ layout: layout.njk
 
 ## Belfast Tide Level Monitoring
 
+A video describing the steps below can be found here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UAZAA2opqYc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### Creating a new data feed on belfast.pvos.org
 
 1. Create a new data feed at [belfast.pvos.org](http://belfast.pvos.org)
 2. Make note of: the feed's PUBLIC_KEY and PRIVATE_KEY (e.g. copy them from the site, paste them into a local text editor)
-3. Your data is now available at "http://belfast.pvos.org/data/[PUBLIC_KEY].  See below for how to add new data.
+3. Your data is now available at "http://belfast.pvos.org/data/[PUBLIC_KEY]".  See below for how to add new data.
 
 ### Posting new data to a belfast.pvos.org feed
 
