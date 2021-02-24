@@ -22,16 +22,15 @@
         <h1></h1>
 
   
-  <h2>Belfast Tide Level Monitoring</h2>
-<p>A video describing the steps below can be found here:</p>
+  <h2>Using <a href="http://belfast.pvos.org">belfast.pvos.org</a></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UAZAA2opqYc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3>Creating a new data feed on belfast.pvos.org</h3>
+<h3>Creating a new data feed</h3>
 <ol>
 <li>Create a new data feed at <a href="http://belfast.pvos.org">belfast.pvos.org</a></li>
 <li>Make note of: the feed's PUBLIC_KEY and PRIVATE_KEY (e.g. copy them from the site, paste them into a local text editor)</li>
 <li>Your data is now available at &quot;http://belfast.pvos.org/data/[PUBLIC_KEY]&quot;.  See below for how to add new data.</li>
 </ol>
-<h3>Posting new data to a belfast.pvos.org feed</h3>
+<h3>Posting data</h3>
 <p>New data can be added to your feed via HTTP POST; note that you will need both the PUBLIC_KEY and PRIVATE_KEY for your feed in order to be allowed to post new data.</p>
 <p>Below is an example of a Python script to post new values:</p>
 <pre><code>import requests
