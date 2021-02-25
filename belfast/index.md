@@ -61,3 +61,8 @@ x = requests.post(full_url, data = myobj)
 print (distance)
 print(x.text)
 ```
+### Analyzing data
+
+An example Jupyter notebook for importing CSV data from belfast.pvos.org and plotting it is in the 'jupyter' folder in the gitlab repo -- [here](https://gitlab.com/p-v-o-s/agroeco/belfast-feed/-/blob/master/jupyter/cross_compare.ipynb)
+
+![](/img/belfast/jupyter.png)
