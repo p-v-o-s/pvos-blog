@@ -15,7 +15,7 @@ Research tools, instrument designs, pedagogy, collaborations.
 
 ## Projects
 
-### [CO2 Monitor Lending Library](/co2_lending/)
+### [CO2 Monitoring](/co2)
 
 ### [Belfast tide level monitoring](/belfast/)
 
