@@ -6,6 +6,8 @@ layout: layout.njk
 
 Instrument designs, online data capture, data analysis.  Focus on assessment of indoor ventilation and greenhouse growing conditions.
 
+### [Lending Library Concept](/co2_lending)
+
 ### Field Instrument Designs
 
 #### [Firmware](https://gitlab.com/p-v-o-s/co2/co2monitor-firmware)
@@ -23,6 +25,7 @@ Example of Artisan's Asylum CO2 feed from Feb 18 to Mar 7 2021 [here](http://co2
 ### Miscellaneous
 
 - CO2 Monitor [Revision F How-To Guide](/co2/f).
+- [Development diary](https://edgecollective.io/posts/notes/co2/) from [Edge Collective](https://edgecollective.io).
 <!--
 ### [REV_E and REV_F -- Latest Firmware](/co2/firmware)
 
