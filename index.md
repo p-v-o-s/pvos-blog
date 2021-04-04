@@ -21,7 +21,6 @@ Research tools, instrument designs, pedagogy, collaborations.
 
 >> - **April 20201**: Second deployment at Artisan's Asylum underway. Live graph [here](http://bayou.pvos.org/data/mp3zediw3d83?limit=10000).
 
-
 > ## [Tide & Flood Monitoring](/belfast/)
 
 >> With Dave Sprague, David Thomas, and others in Belfast, Maine, we've been building DIY water level monitoring devices. [(Read more ...)](/belfast/)
