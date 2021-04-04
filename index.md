@@ -12,13 +12,19 @@ Research tools, instrument designs, pedagogy, collaborations.
 
 </div>
 
+# Projects
 
-## Projects
+> ## [CO2 Monitoring & Ventilation](/co2)
+>> We've been exploring the use of CO2 as a tracer gas when assessing and attempting to improve the effectiveness of indoor ventilation, with applications in COVID risk analysis / mitigation. [(Read more ...)](/co2)
 
-### [CO2 Monitoring](/co2)
+>> Updates:
 
-### [Belfast tide level monitoring](/belfast/)
+>> - **April 20201**: Second deployment at Artisan's Asylum underway. Live graph [here](http://bayou.pvos.org/data/mp3zediw3d83?limit=10000).
 
+
+> ## [Tide & Flood Monitoring](/belfast/)
+
+>> With Dave Sprague, David Thomas, and others in Belfast, Maine, we've been building DIY water level monitoring devices. [(Read more ...)](/belfast/)
 
 <!--
 ## R&D
