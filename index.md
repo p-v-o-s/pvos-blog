@@ -19,7 +19,7 @@ Research tools, instrument designs, pedagogy, collaborations.
 
 >> Updates:
 
->> - **April 20201**: Second deployment at Artisan's Asylum underway. Live graph [here](http://bayou.pvos.org/data/mp3zediw3d83?limit=10000).
+>> - **April 2021**: Second deployment at Artisan's Asylum underway. Live graph [here](http://bayou.pvos.org/data/mp3zediw3d83?limit=10000).
 
 > ## [Tide & Flood Monitoring](/belfast/)
 
