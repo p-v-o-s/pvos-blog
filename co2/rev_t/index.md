@@ -4,6 +4,10 @@ layout: layout.njk
 
 ## PVOS CO2 Monitor, Revision 'T'
 
+![](/img/co2/kicad_rev_t_cover_render.png) ![](/img/co2/kicad_rev_t_render.png) 
+
+![](/img/co2/rev_t_front_1.jpeg)
+
 ### Board Design
 
 **Off-the-shelf, easy to solder (through-hole) parts**:
@@ -21,9 +25,9 @@ layout: layout.njk
 
 ### Pictures
 
-![](/img/co2/rev_t_front.jpg)
+![](/img/co2/rev_t_front_1.jpeg)
 
-![](/img/co2/rev_t_back.jpg)
+![](/img/co2/rev_t_back_1.jpeg)
 
 ![](/img/co2/rev_t_innards.jpg)
 
