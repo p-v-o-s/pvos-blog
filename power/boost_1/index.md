@@ -17,6 +17,8 @@ layout: layout.njk
 
 <a href="/img/boost_board_3d.png"><img width="300px" src="/img/boost_board_3d.png"></a> <a href="/img/boost/boost_1.png"><img width="300px" src="/img/boost/boost_1.png"></a>
 
+<a href="/img/boost/testing.jpg"><img width="500px" src="/img/boost/testing.jpg"></a>
+
 <img width="500px" src="/img/boost/18650.png">
 
 ## Design Notes
