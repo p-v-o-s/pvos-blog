@@ -8,8 +8,9 @@ layout: front.njk
 
 <h1> Pioneer Valley Open Science </h1>
 
-Research tools, instrument designs, pedagogy, collaborations.
+Research tools; instrument designs; pedagogy; collaborations.
 
+<!--
 </div>
 
 # Projects
@@ -24,6 +25,7 @@ Research tools, instrument designs, pedagogy, collaborations.
 > ## [Tide & Flood Monitoring](/belfast/)
 
 >> With Dave Sprague, David Thomas, and others in Belfast, Maine, we've been building DIY water level monitoring devices. [(Read more ...)](/belfast/)
+-->
 
 <!--
 ## R&D
